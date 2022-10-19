@@ -1,11 +1,11 @@
 general:
-    virus_base_config: ''
+    virus_base_config: 'sars-cov-2'
     # e.g: 'hiv', 'sars-cov-2', or absent
 
 output:
-    snv: false
+    snv: true
     local: false
     global: false
-    visualization: false
+    visualization: true
     diversity: false
     QA: false
